@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sneha Muraleedharan — Senior Designer</title>
+<meta name="description" content="Senior Designer with 7+ years at McKinsey, KPMG and PwC. Campaigns, publications, presentations and data visualisation.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f6f4f1;--text:#1a1a1a;--muted:#5f5f5f;--line:#e4e0da;--accent:#e2542c;--ink:#fff;--serif:"Fraunces",Georgia,serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#121212;--surface:#1b1b1b;--text:#f2f0ed;--muted:#a8a5a0;--line:#2d2b29;--accent:#ff7a52;--ink:#121212;color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:var(--serif);font-weight:600;font-size:20px;text-decoration:none}
+.links{display:flex;gap:22px;align-items:center;font-size:14px}
+.links a{text-decoration:none;color:var(--muted)}
+.links a:hover{color:var(--text)}
+.btn{display:inline-block;background:var(--accent);color:var(--ink)!important;padding:10px 20px;border-radius:999px;font-weight:600;font-size:14px;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--text)!important;border:1px solid var(--line)}
+@media(max-width:640px){.links a:not(.btn){display:none}}
+.eyebrow{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0}
+h1{font-size:clamp(38px,7vw,76px);line-height:1.08;margin:16px 0 24px;max-width:15ch}
+h2{font-size:clamp(30px,4.5vw,48px);line-height:1.1;margin:10px 0 36px}
+em{font-style:italic;color:var(--accent)}
+section{padding:80px 0}
+.hero{padding:80px 0 56px}
+.lede{font-size:19px;color:var(--muted);max-width:58ch;margin:0 0 28px}
+.lede strong{color:var(--text)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.stat b{display:block;font-family:var(--serif);font-size:clamp(32px,5vw,52px);font-weight:400;line-height:1}
+.stat span{font-size:14px;color:var(--muted)}
+@media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+.worked{background:var(--surface);padding:22px 0;border-block:1px solid var(--line)}
+.worked .wrap{display:flex;flex-wrap:wrap;gap:12px 40px;justify-content:center;align-items:center;font-size:14px;color:var(--muted)}
+.worked b{font-family:var(--serif);font-size:20px;color:var(--text);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--bg);display:flex;flex-direction:column}
+.card .img{aspect-ratio:16/10;background:var(--surface);display:flex;align-items:center;justify-content:center;color:var(--muted);font-family:var(--serif);font-size:15px}
+.card .img img{width:100%;height:100%;object-fit:cover;display:block}
+.card .body{padding:22px;display:flex;flex-direction:column;gap:8px}
+.tag{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.card h3{font-weight:600;font-size:22px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.card small{color:var(--muted);font-size:13px;margin-top:4px}
+.note{margin-top:22px;font-size:14px;color:var(--muted)}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:56px}
+@media(max-width:860px){.about{grid-template-columns:1fr;gap:32px}}
+.about p{margin:0 0 18px;font-size:17px;color:var(--muted)}
+.about strong{color:var(--text)}
+.side{background:var(--surface);border-radius:18px;padding:28px;align-self:start}
+.side h4{margin:0 0 12px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.side ul{list-style:none;margin:0 0 22px;padding:0;font-size:15px}
+.side li{padding:8px 0;border-bottom:1px solid var(--line)}
+.side li:last-child{border:0}
+.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:28px;display:grid;gap:40px}
+.tl>div{position:relative}
+.tl>div::before{content:"";position:absolute;left:-36px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.tl small{color:var(--muted);font-size:13px}
+.tl h3{font-weight:600;font-size:22px;margin:2px 0 8px}
+.tl ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.tl li{margin-bottom:6px}
+.tl li strong{color:var(--text)}
+.case{background:var(--surface);border-radius:24px;padding:clamp(28px,5vw,56px)}
+.flow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:24px}
+.flow span{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:14px}
+.flow .arr{border:0;background:none;padding:0;color:var(--accent)}
+.flow .win{background:var(--accent);color:var(--ink);border-color:var(--accent);font-weight:600}
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:860px){.svcs{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.svcs{grid-template-columns:1fr}}
+.svc{padding:24px;border-radius:18px;background:var(--surface)}
+.svc h3{font-weight:600;font-size:19px;margin:0 0 8px}
+.svc p{margin:0;color:var(--muted);font-size:15px}
+.contact{text-align:center;background:var(--surface)}
+.contact h2{margin-inline:auto;max-width:14ch}
+.contact .cta{justify-content:center}
+footer{border-top:1px solid var(--line);padding:26px 0;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#top">SM</a>
+  <div class="links"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a><a class="btn" href="#contact">Hire Me</a></div>
+</nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <div class="eyebrow">Senior Designer · Kolkata, India · Working with PwC Switzerland</div>
+  <h1>I’ve always believed the obvious answer is <em>just the starting point.</em></h1>
+  <p class="lede"><strong>7+ years</strong> turning complex ideas into campaigns, publications and presentations at <strong>McKinsey, KPMG</strong> and <strong>PwC</strong>, with AI as a creative multiplier.</p>
+  <div class="cta"><a class="btn" data-pdf href="Portfolio.pdf" target="_blank" rel="noopener">View portfolio ↗</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+  <div class="stats">
+    <div class="stat"><b>7+</b><span>Years in corporate design</span></div>
+    <div class="stat"><b>3</b><span>Top-tier firms</span></div>
+    <div class="stat"><b>800+</b><span>Hours saved through frameworks &amp; automation</span></div>
+    <div class="stat"><b>2×</b><span>KPMG spot awards</span></div>
+  </div>
+</div>
+
+<div class="worked"><div class="wrap"><span>Worked with</span><b>McKinsey &amp; Company</b><b>KPMG</b><b>PwC Switzerland</b></div></div>
+
+<section id="work"><div class="wrap"><div class="case">
+  <div class="eyebrow">Selected Work</div>
+  <h2 style="margin-bottom:12px">See the full <em>portfolio.</em></h2>
+  <p class="lede" style="margin:0 0 8px">Campaigns, posters, mementos, one-pagers and presentations, with the objective, solution and tools behind each project.</p>
+  <div class="flow" style="margin-bottom:28px"><span>Campaigns</span><span>Posters</span><span>Memento</span><span>One pager</span><span>PowerPoint slides</span></div>
+  <a class="btn" data-pdf href="Portfolio.pdf" target="_blank" rel="noopener">View portfolio (PDF) ↗</a>
+</div></div></section>
+
+<section id="experience" style="padding-top:0"><div class="wrap">
+  <div class="eyebrow">Experience</div>
+  <h2>The <em>journey</em> so far.</h2>
+  <div class="tl">
+    <div><small>2026 – Present · Kolkata</small><h3>Senior Designer, PwC Switzerland team</h3><ul>
+      <li>Partner directly with <strong>Line of Service stakeholders</strong>, gathering requirements and managing each project from brief to delivery.</li>
+      <li>Design brochures, whitepapers, event collaterals and flyers as part of the in-house creative design studio.</li>
+      <li>Lay out and produce <strong>70+ page survey reports</strong>, turning dense research into clear, on-brand publications.</li>
+      <li>Used <strong>Adobe Firefly and Luna AI</strong> to create AI-generated mockups of PwC-branded products for a merchandise shop.</li>
+      <li>Built a <strong>Copilot agent that automates SharePoint management, saving 200+ hours</strong>.</li>
+      <li>Apply PwC’s global brand guidelines across every format, and mentor junior designers.</li></ul></div>
+    <div><small>2022 – July 2025</small><h3>Senior Designer, KPMG</h3><ul>
+      <li>Led the <strong>end-to-end design process for marketing campaigns</strong>, from brief and concept to final delivery across print, digital and social.</li>
+      <li>Created client and internal deliverables, with a focus on data visualisation, layout and typography.</li>
+      <li>Built a visual framework from seven brand-aligned design trends and trained the team to use it: <strong>600+ hours saved</strong> and a <strong>Kaizen Certificate</strong>.</li>
+      <li>Won the KPMG <strong>spot award twice</strong> for exceptional performance on client and internal projects.</li>
+      <li>Managed multiple projects at once, and mentored junior designers.</li></ul></div>
+    <div><small>Sept 2018 – 2022</small><h3>Business Presentation Specialist, McKinsey &amp; Company</h3><ul>
+      <li>Crafted presentations that communicated complex business narratives to global audiences.</li>
+      <li>Translated data and insights into clear, engaging visual stories.</li>
+      <li>Collaborated closely with consultants to develop tailored visual strategies for client deliverables.</li>
+      <li>Kept visual consistency while adapting to diverse business contexts and brand standards.</li></ul></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="case">
+  <div class="eyebrow">Case study · KPMG</div>
+  <h2 style="margin-bottom:12px">600+ hours saved, <em>one framework.</em></h2>
+  <p class="lede" style="margin:0">I researched seven design trends aligned with KPMG’s brand, built a visual framework from them and trained the team to use it. Deck creation got faster, and the work earned a Kaizen Certificate through KPMG’s Booster platform (March 2025).</p>
+  <div class="flow"><span>7 design trends</span><span class="arr">→</span><span>Visual framework</span><span class="arr">→</span><span>Team training</span><span class="arr">→</span><span class="win">600+ hours saved</span></div>
+</div></div></section>
+
+<section id="about" style="padding-top:0"><div class="wrap">
+  <div class="eyebrow">About</div>
+  <h2><em>Versatile</em> by design.</h2>
+  <div class="about">
+    <div>
+      <p>I’m Sneha, a <strong>Senior Designer</strong> with 7+ years at the intersection of design and high-stakes business. I started with <strong>McKinsey</strong> presentations, led campaigns at <strong>KPMG</strong>, and now create publications and AI-powered brand experiences with the <strong>PwC Switzerland</strong> team.</p>
+      <p>With a commerce background (a <strong>B.Com gold medalist</strong>), I understand the business behind every brief. I’m fluent in <strong>campaign design, publication design, presentations and data visualisation</strong>, and I use AI as a way to work faster and smarter.</p>
+      <p>I’ve mentored junior designers and delivered under pressure for some of the world’s most demanding firms.</p>
+    </div>
+    <div class="side">
+      <h4>Skills</h4>
+      <ul><li>Campaign &amp; publication design</li><li>Presentation design</li><li>Data visualisation</li><li>Brand consistency</li><li>Stakeholder management</li></ul>
+      <h4>Tools</h4>
+      <ul><li>Illustrator · Photoshop · InDesign · Firefly</li><li>PowerPoint · Word · Excel · Power BI</li><li>Microsoft Copilot · Luna AI</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="eyebrow">What I Do</div>
+  <h2>How I can <em>help</em> your team.</h2>
+  <div class="svcs">
+    <div class="svc"><h3>Campaign Design</h3><p>End-to-end visual identity and assets for internal and client campaigns.</p></div>
+    <div class="svc"><h3>Publications</h3><p>Brochures, whitepapers and 70+ page survey reports.</p></div>
+    <div class="svc"><h3>Presentations</h3><p>Executive decks and templates that simplify complex narratives.</p></div>
+    <div class="svc"><h3>Data Visualisation</h3><p>Infographics and layouts that make data easy to act on.</p></div>
+    <div class="svc"><h3>AI-Assisted Design</h3><p>Firefly and Luna AI mockups, plus Copilot automation.</p></div>
+    <div class="svc"><h3>Brand Consistency</h3><p>Global guidelines applied across every format and audience.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <div class="eyebrow">Contact</div>
+  <h2>Let’s make something <em>unexpected.</em></h2>
+  <div class="cta"><a class="btn" href="mailto:snehamuraleedharan07@gmail.com">Email me</a><a class="btn ghost" href="https://linkedin.com/in/sneha-muraleedharan" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>Sneha Muraleedharan</span><span>© 2026 · Senior Designer · Kolkata, India</span></div></footer>
+<script>
+/* Change this one line to your own PDF link (a file in this repo, or a Google Drive / Behance link) */
+const PORTFOLIO_LINK = "Portfolio.pdf";
+document.querySelectorAll("[data-pdf]").forEach(a => a.href = PORTFOLIO_LINK);
+</script>
+</body>
+</html>
